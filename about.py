@@ -103,4 +103,8 @@ if __name__ == "__main__":
         fn = "about.txt"
         with open(fn, "w") as f:
             f.write(get_header(__file__))
-            
+
+print('Courtney Pigford')
+{datetime.date.today()} 
+print('S560274@nwmissouri.edu')
+
