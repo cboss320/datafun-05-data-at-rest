@@ -153,4 +153,14 @@ with open('accounts.csv', 'r', newline= '') as accounts:
         print(f'{account:<10}{name:<10}{balance:>10}')
 
 
+import pandas as pd 
+
+df = pd.read+csv('accounts.csv', 
+                names=['account', 'name', 'balance'])
+
+
+df 
+
+df.to_csv('accounts_from_dataframe.csv', index=False)
+
 
